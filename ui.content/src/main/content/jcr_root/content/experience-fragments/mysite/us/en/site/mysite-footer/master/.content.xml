@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-12-11T14:53:13.614+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[experience-fragments:variation/web]"
+        cq:template="/conf/mysite/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Mysite footer"
+        sling:resourceType="mysite/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="mysite/components/container"
+            layout="responsiveGrid">
+            <text
+                jcr:created="{Date}2023-12-11T14:46:14.798+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-12-11T14:47:48.905+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/text"
+                text="&lt;p>@CopyRight-2023 We Retail&lt;/p>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="4"
+                        width="8"/>
+                </cq:responsive>
+            </text>
+            <button
+                jcr:created="{Date}2023-12-11T14:49:41.941+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-12-11T14:50:42.127+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Instagram"
+                sling:resourceType="mysite/components/button"
+                link="https://www.instagram.com/"/>
+            <button_736578294
+                jcr:created="{Date}2023-12-11T14:52:49.046+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-12-11T14:53:13.612+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Facebook"
+                sling:resourceType="mysite/components/button"
+                link="https://www.facebook.com/"/>
+        </root>
+    </jcr:content>
+</jcr:root>

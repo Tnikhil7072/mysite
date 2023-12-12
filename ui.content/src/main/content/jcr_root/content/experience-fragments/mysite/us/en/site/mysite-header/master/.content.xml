@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-12-11T14:45:27.435+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[experience-fragments:variation/web]"
+        cq:template="/conf/mysite/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Mysite header"
+        sling:resourceType="mysite/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="mysite/components/container"
+            layout="responsiveGrid">
+            <image
+                jcr:created="{Date}2023-12-11T14:37:34.745+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-12-11T14:40:27.905+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/image"
+                altValueFromDAM="true"
+                displayPopupTitle="true"
+                fileReference="/content/dam/we-retail-screens/we-retail-instore-logo.png"
+                isDecorative="false"
+                titleValueFromDAM="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="4"/>
+                </cq:responsive>
+            </image>
+            <title
+                jcr:created="{Date}2023-12-11T14:37:49.613+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-12-11T14:41:10.242+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Welcome to We Retail Store"
+                sling:resourceType="mysite/components/title">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="8"/>
+                </cq:responsive>
+            </title>
+            <text
+                jcr:created="{Date}2023-12-11T14:38:00.012+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-12-11T14:42:45.264+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/text"
+                text="&lt;p>This is we retail store.Keep Shopping and Keep Exploring !!!&lt;/p>&#xa;"
+                textIsRich="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="4"
+                        width="6"/>
+                </cq:responsive>
+            </text>
+        </root>
+    </jcr:content>
+</jcr:root>
