@@ -1,0 +1,19 @@
+
+<sly data-sly-test.title ="${properties.title}">
+<h4> ${title} </h4>
+</sly>
+<sly data-sly-test.title = "${! properties.title}">
+${currentPage.title}
+</sly>
+
+
+<img src="${properties.fileReference}"></img>
+${properties.desc @context="html"}
+
+   <sly data-sly-use.pageTags="com.adobe.aem.mysite.site.core.models.PageTagsUse">
+    <div class="tag-list">
+        <sly data-sly-list.tag="${pageTags.tags}">
+            Tags used : ${tag.title}
+        </sly>
+    </div>
+</sly>
