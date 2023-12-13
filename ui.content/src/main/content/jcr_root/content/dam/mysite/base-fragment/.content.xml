@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="0c87ad62-5587-4c66-9a44-620b139c0ec3">
+    <jcr:content
+        cq:name="base-fragment"
+        cq:parentPath="/content/dam/mysite"
+        jcr:lastModified="{Date}2023-12-13T12:48:26.762+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Base Fragment"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-12-13T12:48:26.762+05:30">
+        <data
+            cq:model="/conf/mysite/settings/dam/cfm/models/content-fragment-task"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                bio="&lt;p>In this i want to tell about my information&lt;/p>&#xa;"
+                bio_x0040_ContentType="text/html"
+                bio_x0040_LastModified="{Date}2023-12-13T12:48:26.716+05:30"
+                checkbox="{Boolean}true"
+                checkbox_x0040_LastModified="{Date}2023-12-13T12:48:26.717+05:30"
+                email="gopalraikaindi5@gmail.com"
+                email_x0040_LastModified="{Date}2023-12-13T12:48:26.719+05:30"
+                name="Gopal"
+                name_x0040_LastModified="{Date}2023-12-13T12:48:26.715+05:30"
+                website="https://www.youtube.com/"
+                website_x0040_LastModified="{Date}2023-12-13T12:48:26.718+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
