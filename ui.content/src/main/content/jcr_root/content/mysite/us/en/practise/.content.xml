@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2023-12-13T12:36:16.221+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[forum:,experience-fragments:variation]"
+        cq:template="/conf/mysite/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="[Article-Component Page,Article-Component Page]"
+        sling:resourceType="mysite/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="mysite/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/container"
+                    layout="responsiveGrid">
+                    <article_component_54377566
+                        jcr:created="{Date}2023-12-12T12:57:36.556+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-12-13T10:46:13.790+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="newpage"
+                        sling:resourceType="mysite/components/Article-component"
+                        desc="&lt;p>I have done article page task in which i added a new tab in the page properties with name&lt;b> Article categories.&amp;nbsp; &lt;/b>in which in that tab i gave a tags option so that author will able to add tags to this particular page and also i added to print hose Tags(keywords)in the respective page when published. I also added a default title as page title if the title input is not given and if it is given it should be print that dynamic title or image or Description.&lt;/p>&#xd;&#xa;&lt;p>Thanking you&lt;/p>&#xd;&#xa;"
+                        fileReference="/content/dam/we-retail/en/activities/hiking-camping/Hiking-Campaign.jpg"
+                        textIsRich="true"
+                        title="I have done a Article Page Task Today">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
+                        </cq:responsive>
+                    </article_component_54377566>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>
