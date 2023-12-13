@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="a5fe90ba-c35a-4f87-8ade-d1c6a40c84ab">
+    <jcr:content
+        cq:name="new-task"
+        cq:parentPath="/content/dam/mysite"
+        jcr:lastModified="{Date}2023-12-13T12:49:39.757+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="New Task"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-12-13T12:49:39.757+05:30">
+        <data
+            cq:model="/conf/mysite/settings/dam/cfm/models/content-fragment-task"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                bio="&lt;p>In this you want to tell about some information&lt;/p>&#xa;"
+                bio_x0040_ContentType="text/html"
+                bio_x0040_LastModified="{Date}2023-12-13T12:43:46.705+05:30"
+                checkbox="{Boolean}true"
+                checkbox_x0040_LastModified="{Date}2023-12-13T12:25:19.791+05:30"
+                email="sainavatej00@gmail.com"
+                email_x0040_LastModified="{Date}2023-12-13T12:49:39.733+05:30"
+                fieldLabel="/content/dam/Aem-project/potrait image.jpeg"
+                fieldLabel_x0040_LastModified="{Date}2023-12-12T14:30:13.324+05:30"
+                image="/content/dam/tourism/Demo.jpg"
+                image_x0040_LastModified="{Date}2023-12-12T14:36:04.669+05:30"
+                MultilineText="&lt;p>&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;img src=&quot;/content/dam/tourism/Demo.jpg&quot; data-assetref=&quot;Demo-1702444561502&quot;>&lt;/p>&#xa;"
+                MultilineText_x0040_ContentType="text/html"
+                MultilineText_x0040_LastModified="{Date}2023-12-13T10:49:18.335+05:30"
+                name="Navatej"
+                name_x0040_LastModified="{Date}2023-12-13T12:49:39.730+05:30"
+                picture="/content/dam/Aem-project/potrait image.jpeg"
+                picture_x0040_LastModified="{Date}2023-12-12T12:52:06.610+05:30"
+                website="https://www.google.com/"
+                website_x0040_LastModified="{Date}2023-12-13T12:49:39.732+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
