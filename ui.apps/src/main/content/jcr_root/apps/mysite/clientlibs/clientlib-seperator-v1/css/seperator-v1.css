@@ -1,0 +1,105 @@
+.cmp-separator{
+
+background-color:red;
+
+}
+
+
+.cmp-separator-blue{
+
+background-color:blue;
+
+}
+
+.cmp-separator-grey{
+
+background-color:grey;
+
+}
+
+ .cmp-separator-black{
+
+background-color:black;
+
+}
+
+.cmp-separator-yellow{
+
+background-color:yellow;
+
+}
+
+.cmp-separator-white{
+
+background-color:white;
+
+}
+.cmp-separator-dashed {
+
+  padding: 5px; 
+  border: 2px dashed ; 
+            }
+
+.cmp-separator-dotted {
+  padding: 5px; 
+  border: 2px dotted ;
+}
+
+.cmp-separator-soild {
+  padding: 5px; 
+  border: 2px solid ; 
+}
+
+
+
+                    .cmp-seperator-small{
+
+                            @include breakpoint(mobile-max) {
+                    padding-bottom: 12px;
+                }
+                padding-bottom: 16px;
+            }
+
+
+
+                    .cmp-seperator-medium{
+
+                            @include breakpoint(mobile-max) {
+                    padding-bottom: 20px;
+                }
+                padding-bottom: 24px;
+            }
+
+
+
+
+
+                    .cmp-seperator-large{
+
+                            @include breakpoint(mobile-max) {
+                    padding-bottom: 32px;
+                }
+                padding-bottom: 40px;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
