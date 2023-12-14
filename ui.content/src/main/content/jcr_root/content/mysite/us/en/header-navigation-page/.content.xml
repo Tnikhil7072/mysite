@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-12-13T13:17:38.306+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/mysite/settings/wcm/templates/header-navigation-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Header-Navigation-Page"
+        sling:resourceType="mysite/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="mysite/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/container"
+                layout="responsiveGrid">
+                <headernavigation
+                    jcr:created="{Date}2023-12-13T13:13:57.497+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-12-13T13:17:38.302+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/HeaderNavigation"
+                    fileReference="/content/dam/mysite/Screenshot 2023-12-13 130414.png"
+                    mainLabel=".">
+                    <links jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            external="true"
+                            label="Magazine"
+                            linkPath="www.google.com"
+                            target="_blank"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            external="true"
+                            label="Sports"
+                            linkPath="www.google.com"
+                            target="_blank"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            external="true"
+                            label="Adventerues"
+                            linkPath="www.google.com"
+                            target="_blank"/>
+                    </links>
+                </headernavigation>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>
