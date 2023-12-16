@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-12-16T09:57:46.306+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/mysite/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="GoldenTemple"
+        sling:resourceType="mysite/components/page">
+        <root
+            jcr:lastModified="{Date}2023-12-11T09:35:51.861+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="mysite/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/container"
+                layout="responsiveGrid">
+                <container
+                    jcr:lastModified="{Date}2023-12-11T09:36:00.932+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/container"
+                    layout="responsiveGrid">
+                    <text
+                        jcr:created="{Date}2023-12-16T09:57:31.970+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-12-16T09:57:46.299+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite/components/text"
+                        text="&lt;p>&lt;b>Golden Temple&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>The&amp;nbsp;&lt;b>Golden Temple&lt;/b>&amp;nbsp;(also known as the&amp;nbsp;&lt;b>Harimandir Sahib&lt;/b>&amp;nbsp;(lit. 'House of God',&amp;nbsp;Punjabi pronunciation:&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Help:IPA/Punjabi&quot; title=&quot;Help:IPA/Punjabi&quot;>[ɦəɾᵊmən̪d̪əɾᵊ&amp;nbsp;saːɦ(ɪ)bᵊ]&lt;/a>), or the&amp;nbsp;&lt;b>Darbār Sahib&lt;/b>, (lit. ''exalted court'',&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Help:IPA/Punjabi&quot; title=&quot;Help:IPA/Punjabi&quot;>[d̪əɾᵊbaːɾᵊ&amp;nbsp;saːɦ(ɪ)bᵊ]&lt;/a>&amp;nbsp;or&amp;nbsp;&lt;b>Suvaran Mandir&lt;/b>&lt;sup>&lt;a href=&quot;https://en.wikipedia.org/wiki/Golden_Temple#cite_note-2&quot;>[2]&lt;/a>&lt;/sup>) is a&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Gurdwara&quot; title=&quot;Gurdwara&quot;>gurdwara&lt;/a>&amp;nbsp;located in the city of&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Amritsar&quot; title=&quot;Amritsar&quot;>Amritsar&lt;/a>,&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Punjab,_India&quot; title=&quot;Punjab, India&quot;>Punjab, India&lt;/a>.&lt;sup>&lt;a href=&quot;https://en.wikipedia.org/wiki/Golden_Temple#cite_note-eos-3&quot;>[3]&lt;/a>&lt;a href=&quot;https://en.wikipedia.org/wiki/Golden_Temple#cite_note-FOOTNOTEEleanor_Nesbitt201664%E2%80%9365,_150-4&quot;>[4]&lt;/a>&lt;/sup>&amp;nbsp;It is the pre-eminent spiritual site of&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Sikhism&quot; title=&quot;Sikhism&quot;>Sikhism&lt;/a>. It is one of the&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Holy_place&quot; title=&quot;Holy place&quot;>holiest sites&lt;/a>&amp;nbsp;in Sikhism, alongside the&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Gurdwara_Darbar_Sahib_Kartarpur&quot; title=&quot;Gurdwara Darbar Sahib Kartarpur&quot;>Gurdwara Darbar Sahib Kartarpur&lt;/a>&amp;nbsp;in&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Kartarpur,_Pakistan&quot; title=&quot;Kartarpur, Pakistan&quot;>Kartarpur&lt;/a>, and&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Gurdwara_Janam_Asthan&quot; title=&quot;Gurdwara Janam Asthan&quot;>Gurdwara Janam Asthan&lt;/a>&amp;nbsp;in&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Nankana_Sahib&quot;>Nankana Sahib&lt;/a>.&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                </container>
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/title"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

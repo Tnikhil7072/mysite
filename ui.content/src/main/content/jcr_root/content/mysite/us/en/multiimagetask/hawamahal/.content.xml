@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-12-16T09:55:01.967+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/mysite/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="HawaMahal"
+        sling:resourceType="mysite/components/page">
+        <root
+            jcr:lastModified="{Date}2023-12-11T09:35:51.861+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="mysite/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/container"
+                layout="responsiveGrid">
+                <container
+                    jcr:lastModified="{Date}2023-12-11T09:36:00.932+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/container"
+                    layout="responsiveGrid">
+                    <text
+                        jcr:created="{Date}2023-12-16T09:54:37.748+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-12-16T09:55:01.962+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite/components/text"
+                        text="&lt;p>&lt;b>HAWA MAHAL&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>Jaipur is India’s first planned city, one of the most famous places to see in India. Rajasthan’s capital city, known worldwide for its pink-coloured structures, blends the charm of its ancient past with all the benefits of a metropolis.&lt;/p>&#xd;&#xa;&lt;p>The Prince of Wales visited India on his journey in 1876 and Maharaja Ram Singh of Jaipur coloured the whole city pink since it was associated with hospitality. The pink city is a spectacular and unique sight to see. Jaipur stands stunningly against the forts of Nahargarh, Garh Ganesh Temple, and Jaigarh.&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                </container>
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/title"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>
