@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-12-16T09:53:31.794+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/mysite/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="RedFort"
+        sling:resourceType="mysite/components/page">
+        <root
+            jcr:lastModified="{Date}2023-12-11T09:35:51.861+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="mysite/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/container"
+                layout="responsiveGrid">
+                <container
+                    jcr:lastModified="{Date}2023-12-11T09:36:00.932+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/container"
+                    layout="responsiveGrid">
+                    <text
+                        jcr:created="{Date}2023-12-16T09:53:05.739+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-12-16T09:53:31.792+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite/components/text"
+                        text="&lt;p>&lt;b>RED FORT&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>Delhi, which includes New Delhi, the capital of India, is one of the top landmark destinations. You have probably heard of this magnificent city and its historical significance. Delhi is well-known for its rich past, art and craft, culture, and diverse food. The city is a symbol of India’s rich history and vibrant present, a location where ancient and contemporary combine effortlessly.&lt;/p>&#xd;&#xa;&lt;p>There are historical landmarks such as the Red Fort, which was constructed in 1638 and is the essence of the Mughal era in India, India Gate, the memorial for World War I and Afghanistan war martyrs, Humayun’s Tomb, built in 1570 by Humayun’s wife Haji Begum, Qutub Minar, and plenty more. Moreover, various museums give insight into the country’s incomparable history.&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                </container>
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/title"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

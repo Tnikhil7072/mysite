@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-12-16T09:56:35.114+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/mysite/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="GreatWallOFChina"
+        sling:resourceType="mysite/components/page">
+        <root
+            jcr:lastModified="{Date}2023-12-11T09:35:51.861+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="mysite/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/container"
+                layout="responsiveGrid">
+                <container
+                    jcr:lastModified="{Date}2023-12-11T09:36:00.932+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/container"
+                    layout="responsiveGrid">
+                    <text
+                        jcr:created="{Date}2023-12-16T09:56:17.788+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-12-16T09:56:35.110+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite/components/text"
+                        text="&lt;p>&lt;b>Great Wall of China&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>The&amp;nbsp;&lt;b>Great Wall of China&lt;/b>&amp;nbsp;(&lt;a href=&quot;https://en.wikipedia.org/wiki/Traditional_Chinese_characters&quot; title=&quot;Traditional Chinese characters&quot;>traditional Chinese&lt;/a>:&amp;nbsp;萬里長城;&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Simplified_Chinese_characters&quot; title=&quot;Simplified Chinese characters&quot;>simplified Chinese&lt;/a>:&amp;nbsp;万里长城;&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Pinyin&quot; title=&quot;Pinyin&quot;>pinyin&lt;/a>:&amp;nbsp;&lt;i>Wànlǐ Chángchéng&lt;/i>, literally &amp;quot;ten thousand&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Li_(unit)&quot; title=&quot;Li (unit)&quot;>&lt;i>li&lt;/i>&lt;/a>&amp;nbsp;long wall&amp;quot;) is a series of&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Fortifications&quot; title=&quot;Fortifications&quot;>fortifications&lt;/a>&amp;nbsp;that were built across the historical northern borders of&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Ancient_Chinese_states&quot; title=&quot;Ancient Chinese states&quot;>ancient Chinese states&lt;/a>&amp;nbsp;and&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Imperial_China&quot; title=&quot;Imperial China&quot;>Imperial China&lt;/a>&amp;nbsp;as protection against&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Eurasian_nomads&quot; title=&quot;Eurasian nomads&quot;>various nomadic groups&lt;/a>&amp;nbsp;from the&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Eurasian_Steppe&quot; title=&quot;Eurasian Steppe&quot;>Eurasian Steppe&lt;/a>. Several walls were built from as early as the 7th century&amp;nbsp;BC,&lt;sup>&lt;a href=&quot;https://en.wikipedia.org/wiki/Great_Wall_of_China#cite_note-nyt-4&quot;>[4]&lt;/a>&lt;/sup>&amp;nbsp;with selective stretches later joined by&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Qin_Shi_Huang&quot; title=&quot;Qin Shi Huang&quot;>Qin Shi Huang&lt;/a>&amp;nbsp;(220–206&amp;nbsp;BC), the first&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Emperor_of_China&quot; title=&quot;Emperor of China&quot;>emperor of China&lt;/a>. Little of the Qin wall remains.&lt;sup>&lt;a href=&quot;https://en.wikipedia.org/wiki/Great_Wall_of_China#cite_note-Brit-5&quot;>[5]&lt;/a>&lt;/sup>&amp;nbsp;Later on, many successive dynasties built and maintained multiple stretches of border walls. The best-known sections of the wall were built by the&amp;nbsp;&lt;a href=&quot;https://en.wikipedia.org/wiki/Ming_dynasty&quot; title=&quot;Ming dynasty&quot;>Ming dynasty&lt;/a>&amp;nbsp;(1368–1644).&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                </container>
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/title"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>
