@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="31047a20-d6f0-45af-be94-994c7a45cb58">
+    <jcr:content
+        cq:name="detailcontentfragement"
+        cq:parentPath="/content/dam/mysite"
+        jcr:lastModified="{Date}2023-12-18T15:30:03.194+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="DetailContentFragement"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-12-18T15:30:03.194+05:30"/>
+</jcr:root>
