@@ -1,0 +1,21 @@
+<sly 
+data-sly-use.model="com.adobe.aem.mysite.site.core.models.MultiTaskClass"
+data-sly-test.mainLabel="${model.mainLabel}"
+data-sly-test.fileReference="${model.fileReference}"
+data-sly-test.linkPaths="${model.linkPaths}"
+data-sly-test.label="${model.label}"  >
+
+<h1>${mainLabel}</h1>
+<a href="${linkPaths}"> <img src="${fileReference}"> </a>
+<p>${label}</p>
+
+
+    <div class='sw-row'>
+        <ul class="top-nav-item sw-quicklinks">
+            <div class="sw-links-list" data-sly-repeat.links="${model.links}"><a class="top-nav-link" href="${links.linkPath}"> ${links.text @context = 'html'}</a>
+        </ul>        
+    </div>
+
+
+
+</sly>
