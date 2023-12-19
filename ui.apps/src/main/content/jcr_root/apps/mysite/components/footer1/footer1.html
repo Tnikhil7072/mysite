@@ -1,1 +1,28 @@
-hi
+<sly data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html">
+   <sly data-sly-call="${clientlib.css @ categories='mysite.footer1'}"/>
+</sly>
+<div class="container responsivegrid cmp-layout-container--fixed cmp-layoutcontainer--footer">
+   <div class="cmp-container">
+      <div class="bg">
+         <div class="image cmp-image--logo" style="display: inline;">
+            <a class="cmp-image link" href="${properties.linkURL}">
+            <img loading="lazy" class="cmp-image image" alt="WKND Logo"
+               src="${properties.fileReference}">
+            </a>
+         </div>
+         <div class="navigation cmp-navigation--footer" style="display: inline;">
+            <sly data-sly-list.child="${resource.listChildren}">
+            <nav class="cmp-navigation" style="display: inline-block;">
+               <sly data-sly-list.gchild="${child.listChildren}">
+               <ul class="cmp-navigation group">
+                  <li
+                     class="cmp-navigation item cmp-navigation item--level-1 cmpnavigation item--active">
+                     <a href="${gchild.linkURL}" aria-current="page"
+                        class="cmp-navigation item-link">${gchild.linkLabel}</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      </div>
+   </div>
+</div>
