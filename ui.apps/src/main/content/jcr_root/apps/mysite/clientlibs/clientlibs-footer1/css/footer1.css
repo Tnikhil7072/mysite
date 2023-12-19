@@ -1,0 +1,43 @@
+.cmp-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px; /* Adjust padding as needed */
+        background-color:white;
+    	color:black; 
+    	/* Set background color of the footer */
+    }
+ 
+    /* Style for the logo */
+    .cmp-image--logo {
+        display: inline;
+       
+ 
+    }
+	.bg{
+    	background-color:#606060;
+	}
+    .cmp-image--logo a {
+        text-decoration: none;
+    }
+ 
+    /* Style for the navigation */
+    .cmp-navigation--footer {
+        display: inline;
+    }
+ 
+    .cmp-navigation {
+        display: inline-block;
+    }
+ 
+    .cmp-navigation .cmp-navigation.item-link {
+        text-decoration: none;
+        color: #fff; /* Set text color */
+        margin-right: 15px; /* Adjust spacing between items */
+        position: relative;
+        display: inline-block;
+    }
+ 
+    .cmp-navigation .cmp-navigation.item-link:hover {
+        text-decoration: underline;
+    }
