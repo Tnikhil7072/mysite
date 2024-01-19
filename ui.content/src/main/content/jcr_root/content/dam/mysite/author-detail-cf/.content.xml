@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="e5d4d17f-cf77-4d92-a1e1-95944430b88f">
+    <jcr:content
+        cq:name="author-detail-cf"
+        cq:parentPath="/content/dam/mysite"
+        jcr:lastModified="{Date}2023-12-19T12:31:54.441+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Author-detail-cf"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-12-19T12:31:54.441+05:30">
+        <data
+            cq:model="/conf/mysite/settings/dam/cfm/models/author-detail-model"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                authorBio="&lt;p style=&quot;text-align: center;&quot;>&lt;i>Under PM Modi’s successful leadership, the country is coming together to realize the dream of &amp;quot;One India Great India&amp;quot;, says UP CM&amp;nbsp;Yogi Adityanath.&lt;br>&#xa; The birth anniversary of Lord Vishwakarma, the architect of this universe, and the birthday of our illustrious prime minister, the architect of a better India, are on the same day. What a beautiful coincidence!&lt;br>&#xa; Great leaders not only dedicate themselves to a larger goal, but also create institutions and systems to achieve that goal.In the past nine and a half years, we have had a first-hand experience of the embodiment of this greatness in PMNarendra Modi.&lt;/i>&lt;/p>&#xa;"
+                authorBio_x0040_ContentType="text/html"
+                authorBio_x0040_LastModified="{Date}2023-12-19T12:31:54.394+05:30"
+                authorDisplayPicture="[&lt;p style=&quot;text-align: center;&quot;>&lt;img src=&quot;/content/dam/mysite/modijii.jpeg&quot; data-assetref=&quot;modijii-1702967729238&quot;>&lt;img src=&quot;/content/dam/mysite/bharatiya-janata-party-flags.jpg&quot; data-assetref=&quot;bharatiya-janata-party-flags-1702967736692&quot;>&lt;/p>&#xa;,&lt;p>&lt;img src=&quot;/content/dam/mysite/download%20(1).jpeg&quot; data-assetref=&quot;download (1)-1702968543941&quot;>&amp;nbsp;&lt;/p>&#xa;]"
+                authorDisplayPicture_x0040_ContentType="text/html"
+                authorDisplayPicture_x0040_LastModified="{Date}2023-12-19T12:28:19.451+05:30"
+                authorName="INDIAN POLITICS"
+                authorName_x0040_LastModified="{Date}2023-12-19T12:08:19.479+05:30"
+                email="bjphqo@gmail.com"
+                email_x0040_LastModified="{Date}2023-12-19T12:28:19.453+05:30"
+                fieldLabel="/content/dam/mysite/bharatiya-janata-party-flags.jpg"
+                fieldLabel_x0040_LastModified="{Date}2023-12-19T12:31:21.901+05:30"
+                fieldText="{Boolean}true"
+                fieldText_x0040_LastModified="{Date}2023-12-19T12:31:54.395+05:30"
+                website="https://www.bjp.org/home"
+                website_x0040_LastModified="{Date}2023-12-19T12:31:21.900+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

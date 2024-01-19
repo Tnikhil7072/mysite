@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2023-12-19T12:58:53.662+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/mysite/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="[newpage,newpage]"
+        sling:resourceType="mysite/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="mysite/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/container"
+                layout="responsiveGrid">
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/container"
+                    layout="responsiveGrid">
+                    <multifi
+                        jcr:created="{Date}2023-12-15T14:35:43.854+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-12-15T14:35:43.854+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite/components/Multifi"/>
+                    <multifieldtask
+                        jcr:created="{Date}2023-12-18T17:53:44.898+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-12-18T17:53:44.898+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite/components/multifieldtask"/>
+                    <contentfragment
+                        jcr:created="{Date}2023-12-19T12:58:42.875+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-12-19T12:58:53.657+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite/components/contentfragment"
+                        displayMode="multi"
+                        fragmentPath="/content/dam/mysite/author-detail-cf"
+                        paragraphScope="all"
+                        text="Author-detail-cf Author Name INDIAN POLITICS Author Display Picture Author Bio Under PM Modi’s successful leadership, the country is coming together to realize the dream of &quot;One India Great India&quot;, says UP CM Yogi Adityanath. The birth anniversary of Lord Vishwakarma, the architect of this universe, and the birthday of our illustrious prime minister, the architect of a better India, are on the same day. What a beautiful coincidence! Great leaders not only dedicate themselves to a larger goal, but also create institutions and systems to achieve that goal.In the past nine and a half years, we have had a first-hand experience of the embodiment of this greatness in PMNarendra Modi. email bjphqo@gmail.com website https://www.bjp.org/home"
+                        variationName="master"/>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>
