@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-12-19T12:54:39.574+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/mysite/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="TabsComponentTask"
+        sling:resourceType="mysite/components/page">
+        <root
+            jcr:lastModified="{Date}2023-12-11T09:35:51.861+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="mysite/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/container"
+                layout="responsiveGrid">
+                <container
+                    jcr:lastModified="{Date}2023-12-11T09:36:00.932+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/container"
+                    layout="responsiveGrid">
+                    <tabsmulti
+                        jcr:created="{Date}2023-12-19T11:59:30.606+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-12-19T11:59:30.606+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite/components/tabsmulti"/>
+                    <tabs
+                        jcr:created="{Date}2023-12-19T12:49:12.093+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-12-19T12:49:12.093+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite/components/tabs">
+                        <item_1
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Tab 1"
+                            sling:resourceType="tourism/components/container"
+                            layout="responsiveGrid"/>
+                        <item_2
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Tab 2"
+                            sling:resourceType="tourism/components/container"
+                            layout="responsiveGrid"/>
+                        <item_3
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Tab 3"
+                            sling:resourceType="tourism/components/container"
+                            layout="responsiveGrid"/>
+                    </tabs>
+                    <tabscomponent
+                        jcr:created="{Date}2023-12-19T12:50:01.653+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-12-19T12:50:01.653+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite/components/tabscomponent">
+                        <item_1
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Tab 1"
+                            sling:resourceType="tourism/components/container"
+                            layout="responsiveGrid">
+                            <fivestar
+                                jcr:created="{Date}2023-12-19T12:50:10.992+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2023-12-19T12:54:39.567+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="mysite/components/fivestar"
+                                linkPath="/content/dam/mysite/Salaar video.mp4"/>
+                        </item_1>
+                        <item_2
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Tab 2"
+                            sling:resourceType="tourism/components/container"
+                            layout="responsiveGrid">
+                            <imagetext
+                                jcr:created="{Date}2023-12-19T12:50:22.832+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2023-12-19T12:50:55.996+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="mysite/components/imagetext"
+                                fileReference="/content/dam/mysite/images.jpeg"
+                                text="&lt;p>AWS is designed&amp;nbsp;to allow application providers, ISVs, and vendors to quickly and securely host your applications&amp;nbsp;– whether an existing application or a new SaaS-based application. You can use the AWS Management Console or well-documented web services APIs to access AWS's application hosting platform.&lt;/p>&#xd;&#xa;"
+                                textIsRich="true"/>
+                        </item_2>
+                        <item_3
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Tab 3"
+                            sling:resourceType="tourism/components/container"
+                            layout="responsiveGrid">
+                            <text
+                                jcr:created="{Date}2023-12-19T12:52:54.045+05:30"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2023-12-19T12:54:16.236+05:30"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="mysite/components/text"
+                                text="&lt;p>&lt;b>Lorem Ipsum&lt;/b>&amp;nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p>&#xd;&#xa;"
+                                textIsRich="true"/>
+                        </item_3>
+                    </tabscomponent>
+                </container>
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/title"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>
